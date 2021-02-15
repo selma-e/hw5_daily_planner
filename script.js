@@ -1,6 +1,7 @@
 let hours = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"];
 let dateElement = document.getElementById("currentDate");
 let momentCurrentDate = moment().format("dddd, MMM Do YYYY");
+// military time
 let currentTime = moment().format("hh");
 dateElement.innerHTML = momentCurrentDate;
 
