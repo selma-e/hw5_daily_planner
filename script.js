@@ -37,12 +37,3 @@ for (let i = 0; i < hours.length; i++) {
   divEl.append(prependGroupEl, inputEl, appendGroupEl);
   document.getElementById("timeBlocks").append(divEl);
 }
-
-$(document).ready(function () {
-  // function that changes the color of the schedule (past/grey, current/red, future/green)
-  function changeColor() {
-    // pass in the time-box
-    // use method moment to grab current hours, create a for loop (.each method)
-    // moment().hours()
-  }
-});
